@@ -4,6 +4,7 @@ import Network.Browser
 import Network.HTTP
 import Network.URI
 import Control.Monad.IO.Class (liftIO)
+import Control.Monad.Trans.Resource
 import qualified Data.ByteString as S
 import Data.Conduit
 import Data.Conduit.Binary as CB
